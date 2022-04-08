@@ -1,3 +1,3 @@
-class role::master_server.pp {
-    include profile::agent_node.pp
+class role::master_server {
+    include profile::agent_node
 }
