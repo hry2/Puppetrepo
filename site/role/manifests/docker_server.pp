@@ -1,3 +1,3 @@
-class role::docker_server.pp {
-    include profile::docker.pp
+class role::master_server.pp {
+    include profile::docker_agent.pp
 }
