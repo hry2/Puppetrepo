@@ -1,9 +1,9 @@
 class profile::base {
-  package {'nano'
+  package {'nano':
     ensure => present,
   }
   
-  package {'ping'
+  package {'ping':
     ensure => present,
   }
   
