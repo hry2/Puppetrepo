@@ -8,7 +8,7 @@ class profile::base {
   }
   
   notify { 'connection':
-  name     => login ,
-  message  => Bienvenue ,
+    name     => login,
+    message  => Bienvenue,
   }
  }
