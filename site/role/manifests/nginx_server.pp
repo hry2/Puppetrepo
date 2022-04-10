@@ -1,4 +1,4 @@
-class role::nginx_server {
+class role::web_server {
   include profile::base
   include profile::nginx
 }
