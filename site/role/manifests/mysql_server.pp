@@ -1,3 +1,3 @@
-class role::mysql_server {
-  include profile::mysql
+class role::db_server {
+  include profile::db
 }
