@@ -6,7 +6,7 @@ node default {
  }
  
  node 'master.puppet.vm' {
-    include role::docker_server
+    include role::master_server
     puppet.vm.test1
     puppet.vm.test2
  
