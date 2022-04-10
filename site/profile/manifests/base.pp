@@ -10,4 +10,5 @@ class profile::base {
   notify { 'connection':
   name     => login ,
   message  => Bienvenue ,
-}
+  }
+ }
