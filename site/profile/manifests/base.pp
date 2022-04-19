@@ -1,6 +1,6 @@
 class profile::base {
 
-  file {'root/README':
+  file {'/root/README':
     ensure  => file,
     content => "Welcome to ${fqdn}\n Enjoy !",
   }
