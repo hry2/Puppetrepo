@@ -7,6 +7,10 @@ class profile::base {
     ensure => present,
   }
   
+  package {'gparted':
+    ensure => present,
+  }
+  
   notify { 'connection':
     name     => login,
   }
