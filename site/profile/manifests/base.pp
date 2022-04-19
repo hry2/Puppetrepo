@@ -2,7 +2,7 @@ class profile::base {
 
   file {'/root/README':
     ensure  => file,
-    content => "Welcome to ${fqdn}\n Enjoy !",
+    content => "Welcome to ${fqdn}\n Enjoy !\n",
   }
   package {'nano':
     ensure => present,
