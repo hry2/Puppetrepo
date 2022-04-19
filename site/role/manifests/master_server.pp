@@ -1,5 +1,5 @@
 class role::master_server {
     include profile::base
     include profile::agent_node
-    include profile::ssh::client
+    include profile::ssh
 }
